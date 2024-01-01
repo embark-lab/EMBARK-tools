@@ -3,6 +3,8 @@
 export(embark_colors)
 export(embark_palette)
 export(embark_palette_named)
+export(embark_theme_a)
+export(embark_theme_g)
 export(frq_table_by_age_sex)
 export(hist_by_age_sex)
 export(scale_color_embark)
