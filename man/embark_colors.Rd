@@ -3,19 +3,14 @@
 \docType{data}
 \name{embark_colors}
 \alias{embark_colors}
-\title{embark_colors
-adds embark color palette}
+\title{Embark Lab Color Palette}
 \format{
-An object of class \code{character} of length 6.
+A named character vector with 6 hex color values.
 }
 \usage{
 embark_colors
 }
-\value{
-color palette
-}
 \description{
-embark_colors
-adds embark color palette
+A named character vector of six Embark Lab brand colors.
 }
 \keyword{datasets}

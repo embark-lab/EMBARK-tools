@@ -2,20 +2,19 @@
 % Please edit documentation in R/plot_by_age_sex.R
 \name{frq_table_by_age_sex}
 \alias{frq_table_by_age_sex}
-\title{Frequency Table by Age and Sex Function
-creates a table which summarizes responses on an identified variable across age and sex}
+\title{Frequency Table by Age and Sex}
 \usage{
 frq_table_by_age_sex(df, x_var)
 }
 \arguments{
-\item{df}{A dataframe/tibble}
+\item{df}{A data frame or tibble.}
 
-\item{x_var}{A variable}
+\item{x_var}{An unquoted variable name.}
 }
 \value{
-a table which summarizes responses on an identified variable across age and sex
+A tibble with columns for the variable, sex, age, n, and pct.
 }
 \description{
-Frequency Table by Age and Sex Function
-creates a table which summarizes responses on an identified variable across age and sex
+Creates a summary table of counts and proportions for a variable, grouped
+by sex and age. The data must contain columns named \code{sex} and \code{age}.
 }

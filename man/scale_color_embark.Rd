@@ -2,12 +2,17 @@
 % Please edit documentation in R/embark_palette.R
 \name{scale_color_embark}
 \alias{scale_color_embark}
-\title{scale_color_embark
-colors graph with embark palette}
+\title{Embark Color Scale for ggplot2}
 \usage{
 scale_color_embark(...)
 }
+\arguments{
+\item{...}{Additional arguments passed to \code{\link[ggplot2:scale_manual]{ggplot2::scale_color_manual()}}.}
+}
+\value{
+A ggplot2 scale object.
+}
 \description{
-scale_color_embark
-colors graph with embark palette
+A convenience wrapper around \code{\link[ggplot2:scale_manual]{ggplot2::scale_color_manual()}} using the
+Embark Lab color palette.
 }

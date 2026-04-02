@@ -2,20 +2,19 @@
 % Please edit documentation in R/embark_palette.R
 \name{embark_palette}
 \alias{embark_palette}
-\title{embark_palette
-adds embark color palette}
+\title{Get Embark Color Palette}
 \usage{
 embark_palette(n = NULL, names = FALSE)
 }
 \arguments{
-\item{n}{number of colors}
+\item{n}{Number of colors to return. If \code{NULL} (default), returns all 6 brand colors.
+If specified, uses \code{\link[grDevices:colorRamp]{grDevices::colorRampPalette()}} to interpolate.}
 
-\item{return_names}{return color names, T or F}
+\item{names}{Logical. If \code{TRUE}, return named colors. Default is \code{FALSE}.}
 }
 \value{
-color palette
+A character vector of hex color values.
 }
 \description{
-embark_palette
-adds embark color palette
+Returns the Embark Lab color palette, optionally interpolated to \code{n} colors.
 }

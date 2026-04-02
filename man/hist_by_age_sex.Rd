@@ -2,22 +2,22 @@
 % Please edit documentation in R/plot_by_age_sex.R
 \name{hist_by_age_sex}
 \alias{hist_by_age_sex}
-\title{hist_by_age_sex function
-creates a histogram (by percent) an identified variable across age and sex}
+\title{Histogram by Age and Sex}
 \usage{
 hist_by_age_sex(df_1, x_var_1, graph_title)
 }
 \arguments{
-\item{df_1}{a dataframe}
+\item{df_1}{A data frame containing the data.}
 
-\item{x_var_1}{a variable for histogram}
+\item{x_var_1}{An unquoted variable name for the x-axis.}
 
-\item{graph_title}{title of the graph}
+\item{graph_title}{A character string for the plot title.}
 }
 \value{
-a histogram (percentages within gender) of an identified variable across age
+A ggplot2 plot object.
 }
 \description{
-hist_by_age_sex function
-creates a histogram (by percent) an identified variable across age and sex
+Creates a faceted bar chart showing the percentage distribution of a variable
+across age groups, split by sex. The data must contain columns named \code{sex}
+and \code{age}.
 }

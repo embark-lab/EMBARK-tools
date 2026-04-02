@@ -3,19 +3,16 @@
 \docType{data}
 \name{embark_theme_a}
 \alias{embark_theme_a}
-\title{embark_theme_a
-adds theme with Avenir font family}
+\title{Embark ggplot2 Theme (Avenir Font)}
 \format{
-An object of class \code{theme} (inherits from \code{gg}) of length 97.
+A ggplot2 theme object.
 }
 \usage{
 embark_theme_a
 }
-\value{
-ggtheme
-}
 \description{
-embark_theme_a
-adds theme with Avenir font family
+A ggplot2 theme using the Avenir font family with Embark Lab Navy branding.
+Based on \code{\link[ggplot2:theme_minimal]{ggplot2::theme_minimal()}} with centered bold titles, top legend,
+and transparent background.
 }
 \keyword{datasets}

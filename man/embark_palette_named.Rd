@@ -2,15 +2,13 @@
 % Please edit documentation in R/embark_palette.R
 \name{embark_palette_named}
 \alias{embark_palette_named}
-\title{embark_palette_named
-adds embark color palette with names}
+\title{Get Named Embark Color Palette}
 \usage{
 embark_palette_named()
 }
 \value{
-color palette
+A named character vector of hex color values.
 }
 \description{
-embark_palette_named
-adds embark color palette with names
+Returns the Embark Lab color palette with names intact.
 }
